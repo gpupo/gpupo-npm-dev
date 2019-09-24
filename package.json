@@ -4,16 +4,13 @@
   "description": "Common NPM dev packages",
   "main": "./lib/index.js",
   "preferGlobal": "true",
-  "scripts": {
-  },
-  "bin": {
-  },
+  "scripts": {},
+  "bin": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/gpupo/gpupo-npm-dev"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Gilmar Pupo <contact@gpupo.com>",
   "license": "MIT",
   "dependencies": {
@@ -34,6 +31,8 @@
     "bootstrap": "^4.1.0",
     "bootstrap-rtl": "^3.3.4",
     "bootstrap-toggle": "^2.2.2",
+    "browser-sync": "^2.26.4",
+    "browser-sync-webpack-plugin": "^2.2.2",
     "circular-json": "^0.5.9",
     "copy-webpack-plugin": "^5.0.3",
     "css-loader": "^0.28.4",
@@ -54,6 +53,7 @@
     "jquery-mask-plugin": "^1.14.15",
     "jquery-slimscroll": "^1.3.8",
     "jquery-ui": "^1.12.1",
+    "jquery-waypoints": "^2.0.5",
     "jquery.are-you-sure": "^1.9.0",
     "lightbox2": "^2.10.0",
     "node-sass": "^4.9.4",
@@ -74,10 +74,8 @@
     "webpack": "^3.12.0",
     "webpack-dev-server": "^2.6.1",
     "webpack-notifier": "^1.6.0",
-    "browser-sync": "^2.26.4",
-    "browser-sync-webpack-plugin": "^2.2.2",
-    "yaml-cli": "^1.1.8",
-    "jquery-waypoints": "^2.0.5"
+    "mini-css-extract-plugin": "^0.8.0",
+    "yaml-cli": "^1.1.8"
   },
   "devDependencies": {
   }
